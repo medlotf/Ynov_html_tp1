@@ -53,6 +53,31 @@
     </aside>
     <br>
 
+    <section>
+        <form action="" method="GET">
+            <h2>Mes informations</h2>
+            <label for="email">Email:</label><input id="email" type="email" name="e-mail">
+            <label for="username">Username:</label><input id="username" type="text"  name="username">
+            <label for="password">Password:</label><input id="password" type="password"  name="password">
+            <h2>Votre Sexe:</h2>
+            <input type="radio" name="sexe" value="male" id="male" /> <label for="male">Male</label>
+            <input type="radio" name="sexe" value="female" id="female" /> <label for="female">Female</label>
+            <h2>Votre Profession:</h2>
+            <select name="profession" id="profession">
+                <option value="profss1" selected>Profession 1</option>
+                <option value="profss2">Profession 2</option>
+                <option value="profss3">Profession 3</option>
+                <option value="profss4">Profession 4</option>
+            </select>
+            <h2>Votre plats préférés:</h2>
+            <input type="checkbox" name="plat1" id="plat1" checked /> <label for="plat1">Plat 1</label>
+            <input type="checkbox" name="plat2" id="plat2" /> <label for="plat2">Plat 2</label>
+            <input type="checkbox" name="plat3" id="plat3" /> <label for="plat3">Plat 3</label>
+            <h2>Votre Article:</h2>
+            <textarea rows="20" cols="50" name="article">Texte par défaut</textarea>
+        </form>
+    </section>
+
     <footer>
         <a id="footer" href="https://www.google.com/" target="_blank">Go to google</a>
         <a href="#topage">Go to top</a>
